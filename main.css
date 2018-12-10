@@ -12,7 +12,7 @@ img {
      
      }
      
-  .rotate {
+  img rotate {
       
       transform: skew(360deg);
       transition: rotate 
