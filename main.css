@@ -4,12 +4,11 @@ img {
     height: 0;
     margin: 25px;
     animation-name:spin;
-    animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
-    animation-duration: 2s;
+    animation-duration: 0s;
     animation-direction: alternate;
-   transform: skew(360deg);
+   
      
      }
      
@@ -25,7 +24,7 @@ img {
     
     @keyframes spin {
         from {
-            height: 0px;
+            height: 1000px;
         }
         
     to {
