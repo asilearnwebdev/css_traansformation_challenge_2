@@ -1,33 +1,13 @@
-img {
-    background-color: #000;
-    width: 250px;
-    height: 0;
-    margin: 25px;
-    animation-name:spin;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-duration: 0s;
-    animation-direction: alternate;
-   
+
      
-     }
-     
-  img rotate {
-      
-      transform: skew(360deg);
-      transition: rotate 
-      
-   }
-         
-     
-         
-    
-    @keyframes spin {
-        from {
-            height: 1000px;
-        }
-        
-    to {
-        height: 100px;
-        
-        }
+  img {
+  animation: spin 1s infinite linear;
+}
+ @keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+   to {
+    transform: rotate(360deg);
+  }
+}
